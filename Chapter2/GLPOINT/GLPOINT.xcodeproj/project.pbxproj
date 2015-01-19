@@ -1,0 +1,249 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		29CB179A1A6BF6D2008EBD4C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 29CB17991A6BF6D2008EBD4C /* main.cpp */; };
+		29CB17A11A6BF701008EBD4C /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29CB17A01A6BF701008EBD4C /* OpenGL.framework */; };
+		29CB17A31A6BF708008EBD4C /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29CB17A21A6BF708008EBD4C /* GLUT.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		29CB17941A6BF6D2008EBD4C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		29CB17961A6BF6D2008EBD4C /* GLPOINT */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = GLPOINT; sourceTree = BUILT_PRODUCTS_DIR; };
+		29CB17991A6BF6D2008EBD4C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		29CB17A01A6BF701008EBD4C /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		29CB17A21A6BF708008EBD4C /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		29CB17931A6BF6D2008EBD4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29CB17A31A6BF708008EBD4C /* GLUT.framework in Frameworks */,
+				29CB17A11A6BF701008EBD4C /* OpenGL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		29CB178D1A6BF6D2008EBD4C = {
+			isa = PBXGroup;
+			children = (
+				29CB17A21A6BF708008EBD4C /* GLUT.framework */,
+				29CB17A01A6BF701008EBD4C /* OpenGL.framework */,
+				29CB17981A6BF6D2008EBD4C /* GLPOINT */,
+				29CB17971A6BF6D2008EBD4C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		29CB17971A6BF6D2008EBD4C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				29CB17961A6BF6D2008EBD4C /* GLPOINT */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29CB17981A6BF6D2008EBD4C /* GLPOINT */ = {
+			isa = PBXGroup;
+			children = (
+				29CB17991A6BF6D2008EBD4C /* main.cpp */,
+			);
+			path = GLPOINT;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		29CB17951A6BF6D2008EBD4C /* GLPOINT */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29CB179D1A6BF6D2008EBD4C /* Build configuration list for PBXNativeTarget "GLPOINT" */;
+			buildPhases = (
+				29CB17921A6BF6D2008EBD4C /* Sources */,
+				29CB17931A6BF6D2008EBD4C /* Frameworks */,
+				29CB17941A6BF6D2008EBD4C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GLPOINT;
+			productName = GLPOINT;
+			productReference = 29CB17961A6BF6D2008EBD4C /* GLPOINT */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29CB178E1A6BF6D2008EBD4C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "关峰";
+				TargetAttributes = {
+					29CB17951A6BF6D2008EBD4C = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 29CB17911A6BF6D2008EBD4C /* Build configuration list for PBXProject "GLPOINT" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 29CB178D1A6BF6D2008EBD4C;
+			productRefGroup = 29CB17971A6BF6D2008EBD4C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				29CB17951A6BF6D2008EBD4C /* GLPOINT */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		29CB17921A6BF6D2008EBD4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29CB179A1A6BF6D2008EBD4C /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		29CB179B1A6BF6D2008EBD4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		29CB179C1A6BF6D2008EBD4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		29CB179E1A6BF6D2008EBD4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INSTALL_PATH = /;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		29CB179F1A6BF6D2008EBD4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INSTALL_PATH = /;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		29CB17911A6BF6D2008EBD4C /* Build configuration list for PBXProject "GLPOINT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29CB179B1A6BF6D2008EBD4C /* Debug */,
+				29CB179C1A6BF6D2008EBD4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29CB179D1A6BF6D2008EBD4C /* Build configuration list for PBXNativeTarget "GLPOINT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29CB179E1A6BF6D2008EBD4C /* Debug */,
+				29CB179F1A6BF6D2008EBD4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29CB178E1A6BF6D2008EBD4C /* Project object */;
+}
