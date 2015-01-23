@@ -100,7 +100,7 @@ int main(int argc, char * argv[]) {
     glutCreateWindow("POINT");
     glutDisplayFunc(RenderScene);
     glutSpecialFunc(SpecialKeys);
-//    glutReshapeFunc(ChangeSize);
+    glutReshapeFunc(ChangeSize);
     
     SetupRC();
     glutMainLoop();
